@@ -1,17 +1,17 @@
 # Module11_FinTech
-Forecasting online prophet 
- This repository contains the code and analysis to predict the online prophet in MercadoLibre, the most popular e-commerce site in Latin America. The goal is to analyze the company's financial and user data to make forecasts and support growth strategies. 
-  Languages and software used 
- The following languages and software were used in this activity: 
- 
- Python 3.10 
- Jupyter Notebook 
- Pandas 
- NumPy 
- hvPlot 
- The prophet 
- Procedures 
- The activity is divided into four stages and an optional fifth stage: 
+
+
+## Introduction
+
+This project focuses on analyzing financial and user data of MercadoLibre, the most popular e-commerce site in Latin America, in order to identify patterns and make accurate forecasts. The goal is to explore the relationship between Google search traffic, stock price patterns, and revenue. The project involves several steps, including finding unusual patterns in search traffic, identifying seasonality in search data, relating search traffic to stock price patterns, creating a time series model using Prophet, and optionally forecasting revenue using time series models.
+
+Languages and Software Used
+Python - Programming language used for data analysis, modeling, and visualization.
+Jupyter Notebook - Interactive coding environment used for running Python code and documenting the project.
+Pandas - Library used for data manipulation and analysis.
+NumPy - Library used for numerical computing.
+hvPlot - Interactive plotting library used for data visualization.
+Prophet - Time series forecasting library developed by Facebook.
  
  ## Step 1: Look for unusual patterns in hourly Google search traffic 
  Read  search data into a DataFrame and analyze data patterns. Cut the data to  May 2020 and plot the results with hvPlot.  Calculate the total search traffic for the month and compare it to the monthly median.  
